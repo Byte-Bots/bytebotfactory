@@ -217,7 +217,7 @@ for i in range(0, maxBots):
     manifest.append(
         { 
             "bot":i, 
-            "border" : borders[border]["name"],
+            "border" : border["name"],
             "message" : message,
         })
 
